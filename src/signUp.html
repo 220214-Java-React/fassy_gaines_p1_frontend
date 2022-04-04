@@ -2,16 +2,29 @@
 <html>
 
 <head>
-<script src="Function.js"></script>
+<script src="Javascript\Register.js" defer></script>
 </head>
 
 <body>
-<form id = "loginForm" method="post" action="http://localhost:8080/LoginServlet">
-Enter username: <br>
-<input type="text" name="username" id="username"><p>
-Enter password: <br>
-<input type="password" name="password" id="password"><p>
-<input type="submit" value="Submit" onclick="processLogin()"/>
+<form id = "registerForm" method="post">
+Enter username: <br />
+<input type="text" name="username" id="username" /> <br />
+Enter password: <br />
+<input type="password" name="password" id="password" /> <br />
+Enter E-Mail:  <br />
+<input type="text" name="email" id="email" /> <br />
+    Enter First Name: <br />
+    <input type="text" name="fname" id="fname" /> <br />
+    Enter Last Name: <br />
+    <input type="text" name="lname" id="lname" /> <br />
+    Select your role: <br />
+    <select name="role" id="role">
+        <option value="e">Employee</option>
+        <option value="f">Financial Manager</option>
+        <option value="a">Administrator</option>
+    </select>
+    <br /> <br />
+<input id="registerButton" type="button" value="Register"/>
 </form>
 
 </body>
