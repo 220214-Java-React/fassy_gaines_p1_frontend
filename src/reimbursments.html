@@ -24,9 +24,38 @@ Reimbursements
 
     <hr>
 
-    <nav>
-        REIMBURSEMENT STUFF TO BE ADDED
-    </nav>
+
+    <div class = "center">
+        <br><br>
+
+        <!-- Box for user to give name -->
+        <label for="name">Employee Name: </label>
+        <input type="text" placeholder="Name" name="name">
+        
+        <br><br>
+        
+        <!-- Selector for the type of expense -->
+        <label for="expenses">Expense Type: </label>
+        <select name="expense tpye" id="expense tpye">
+
+            <option value="lodging" id="lodging">Lodging</option>
+            <option value="food" id="food">Food</option>
+            <option value="travel" id="travel">Travel</option>
+            <option value="other" id="other">Other</option>
+
+        </select>        
+        
+        <br><br>
+        
+        <!-- Box for user to give amount Spent -->
+        <label for="money">Amount Spent: $</label>
+        <input type="number" placeholder="Amount" name="money" min = "0.01">
+
+        <br><br>
+
+        <input type="button">
+
+    </div>
 </body>
 
 
