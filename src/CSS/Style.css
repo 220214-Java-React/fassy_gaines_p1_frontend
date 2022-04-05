@@ -1,7 +1,48 @@
 .gamerMoment{
-    background-color: rgb(139, 75, 145);
+    background-color: rgb(212, 167, 218);
 }
 .snek{
     height: 100px;
     width: 100px;
 }
+
+.VampCat{
+height: 150px;
+width: 150px;
+float: left;
+border-radius: 50%;
+margin: -20px;
+padding-right: 20px;
+}
+
+.indexTop{
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.nav {
+     float: left;
+     border-radius: 10px;
+   }
+   .nav a{
+     display: block;
+     padding: 14px 25px;
+     text-decoration: none;
+     color: rgb(255, 255, 255);
+   }
+   .current {
+    background-color: #00aeff;
+  }
+
+  .center{
+    text-align: center;
+  }
+
+  .landingImg {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+  }

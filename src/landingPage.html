@@ -8,17 +8,21 @@
     </title>
     
     </head>
-    <body>
-        <form id="loginForm" method="post" action="http://localhost:8080/LoginServlet">
+    <body class = "gamerMoment">
+        <div class = "landingImg">
+            <img src = "VampCat.png">
+        </div>
+        <form class = "landingImg" id="loginForm" method="post" action="http://localhost:8080/LoginServlet">
             Enter username: <br>
             <input type="text" name="username" id="username"><p>
                 Enter password: <br>
                 <input type="password" name="password" id="password">
             <p>
                 <input type="submit" value="Login"/><br /><br />
+                <input id="RegisterButton" type="button" value="Register">
+
         </form>
 
-        <input id="RegisterButton" type="button" value="Register">
-
+       
     </body>
 </html>
