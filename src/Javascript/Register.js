@@ -26,7 +26,8 @@ async function registerFunction()
             return true;
     })
 
-    if (nonNull) {
+    if (nonNull) 
+    {
         await fetch('http://localhost:8080/UserServlet',
             {
                 method: 'POST',
