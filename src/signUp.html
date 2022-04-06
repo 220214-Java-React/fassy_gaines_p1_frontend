@@ -2,30 +2,62 @@
 <html>
 
 <head>
-<script src="Javascript\Register.js" defer></script>
+    <link rel="stylesheet" href="CSS/Style.css">
+    <script src="Javascript\Register.js" defer></script>
+    <title>
+        Sign Up
+    </title>
+
 </head>
 
-<body>
-<form id = "registerForm" method="post">
-Enter username: <br />
-<input type="text" name="username" id="username" /> <br />
-Enter password: <br />
-<input type="password" name="password" id="password" /> <br />
-Enter E-Mail:  <br />
-<input type="text" name="email" id="email" /> <br />
-    Enter First Name: <br />
-    <input type="text" name="fname" id="fname" /> <br />
-    Enter Last Name: <br />
-    <input type="text" name="lname" id="lname" /> <br />
-    Select your role: <br />
-    <select name="role" id="role">
-        <option value="e">Employee</option>
-        <option value="f">Financial Manager</option>
-        <option value="a">Administrator</option>
-    </select>
-    <br /> <br />
-<input id="registerButton" type="button" value="Register"/>
-</form>
+<body class="gamerMoment">
+
+    <div class="topBox">
+        <nav class="homeText">
+            <h1 class="center">VampCat Reimbursements - Sign Up</h1>
+        </nav>
+    </div>
+
+    <img src="VampCat.png" class="landingImg">
+
+
+    <div class="signUpBox">
+
+        <nav class="homeText">
+            <form id="registerForm" method="post">
+
+                <br>
+
+                Enter username: <br />
+                <input type="text" placeholder="Username" name="username" id="username" /> <br />
+
+                Enter password: <br />
+                <input type="password" placeholder="Password" name="password" id="password" /> <br />
+
+                Enter E-Mail: <br />
+                <input type="text" placeholder="Email" name="email" id="email" /> <br />
+
+                Enter First Name: <br />
+                <input type="text" placeholder="First Name" name="fname" id="fname" /> <br />
+
+                Enter Last Name: <br />
+                <input type="text" placeholder="Last Name" name="lname" id="lname" /> <br />
+
+                Select your role: <br />
+                <select name="role" id="role">
+                    <option value="e">Employee</option>
+                    <option value="f">Financial Manager</option>
+                    <option value="a">Administrator</option>
+                </select>
+
+                <br> <br>
+
+                <input id="registerButton" type="button" value="Register" />
+            </form>
+
+        </nav>
+
+    </div>
 
 </body>
 

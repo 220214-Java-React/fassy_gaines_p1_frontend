@@ -3,27 +3,35 @@
 }
 
 .VampCat{
-height: 150px;
-width: 150px;
+height: 250px;
+width: 250px;
 float: left;
 border-radius: 50%;
-margin: -20px;
-padding-right: 20px;
+margin: -150px 20px;
+
 }
 
 .indexTop{
   list-style-type: none;
-  padding: 0;
+  padding: 25px;
+  margin: 25px 35%;
   overflow: hidden;
   background-color: black;
   border-radius: 10px;
+  width: 475px;
+  box-shadow: 0 0 20px rgb(100, 2, 2);
+  
 }
 
 
  .landingImg {
-    text-align: center;
+    
     margin: 24px 0 12px 0;
     position: relative;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 .nav {
@@ -35,10 +43,13 @@ padding-right: 20px;
      padding: 14px 25px;
      text-decoration: none;
      color: rgb(255, 255, 255);
+     box-shadow: 0 0 20px rgb(100, 2, 2);
+     border-radius: 10px;
    }
 
  .current {
-    background-color: #00aeff;
+    background-color: rgb(148, 36, 201);
+    font-style: italic; 
   }
 
  .left{
@@ -59,7 +70,7 @@ padding-right: 20px;
     
   }
 .styled-table thead tr {
-  background-color: #009879;
+  background-color: #9b14a0;
   color: #ffffff;
   text-align: left;
 }
@@ -107,7 +118,7 @@ padding-right: 20px;
   position: relative;
   width: 750px;
   height: 1000px;
-  margin: 50px 35% auto;
+  margin: 50px 30% ;
 
   background: rgba(0, 0, 0, 0.842);
   float: center;
@@ -132,11 +143,26 @@ padding-right: 20px;
 
 }
 
-.topBox{
+.signUpBox{
   position: relative;
   width: 600px;
-  height: 100px;
+  height: 450px;
   margin: 50px 35% auto;
+
+  background: rgba(0, 0, 0, 0.842);
+  float: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgb(100, 2, 2);
+
+}
+
+.topBox{
+  position: relative;
+  width: 900px;
+  height: 100px;
+  margin: 50px 28% auto;
 
   background: rgba(0, 0, 0, 0.842);
   float: center;
@@ -158,4 +184,5 @@ padding-right: 20px;
   color: rgb(189, 47, 255);
   text-align: center;
   font-size: x-large;
+
 }
