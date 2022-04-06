@@ -1,4 +1,4 @@
-document.getElementById("RegisterButton").addEventListener("click", registerFunction, false);
+document.getElementById("registerButton").addEventListener("click", registerFunction, false);
 
 function registerFunction()
 {
