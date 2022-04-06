@@ -41,21 +41,25 @@ padding-right: 20px;
      color: rgb(255, 255, 255);
    }
 
-   .current {
+ .current {
     background-color: #00aeff;
   }
 
+ .left{
+    text-align: left;
+    margin: 0px 40px;
+  }
   .center{
     text-align: center;
   }
 
-  .styled-table {
+.styled-table {
     border-collapse: collapse;
-    margin: 25px 35%;
+    margin: 60px 10%;
     font-size: 1em;
     font-family: sans-serif;
-    min-width: 500px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    min-width: 600px;
+    box-shadow: 0 0 20px rgb(172, 5, 172);
     
   }
 .styled-table thead tr {
@@ -69,4 +73,93 @@ padding-right: 20px;
 }
 .styled-table tbody tr {
   border-bottom: 1px solid #dddddd;
+}
+
+
+
+.homeBox{
+  position: relative;
+  width: 1000px;
+  height: 235px;
+  margin: 50px 25% auto;
+
+  background: rgba(0, 0, 0, 0.842);
+  float: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgb(100, 2, 2);
+
+}
+
+.reimBox{
+  position: relative;
+  width: 600px;
+  height: 285px;
+  margin: 50px 35% auto;
+
+  background: rgba(0, 0, 0, 0.842);
+  float: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgb(100, 2, 2);
+
+}
+
+.historyBox{
+  position: relative;
+  width: 750px;
+  height: 1000px;
+  margin: 50px 35% auto;
+
+  background: rgba(0, 0, 0, 0.842);
+  float: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgb(100, 2, 2);
+}
+
+.landingBox{
+  position: relative;
+  width: 600px;
+  height: 285px;
+  margin: 50px 35% auto;
+
+  background: rgba(0, 0, 0, 0.842);
+  float: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgb(100, 2, 2);
+
+}
+
+.topBox{
+  position: relative;
+  width: 600px;
+  height: 100px;
+  margin: 50px 35% auto;
+
+  background: rgba(0, 0, 0, 0.842);
+  float: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgb(100, 2, 2);
+
+}
+
+.zeroFonto{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: xx-large;
+}
+
+.homeText{
+  color: rgb(189, 47, 255);
+  text-align: center;
+  font-size: x-large;
 }

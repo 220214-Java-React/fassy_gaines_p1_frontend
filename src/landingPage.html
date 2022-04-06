@@ -1,29 +1,47 @@
 <!DOCTYPE html>
 <html>
-    <head>
-    <link rel = "stylesheet" href = "CSS/Style.css">
+
+<head>
+    <link rel="stylesheet" href="CSS/Style.css">
     <script src="Javascript\Landing.js" defer></script>
     <title>
-    Login&Signup
+        Login&Signup
     </title>
-    
-    </head>
-    <body class = "gamerMoment">
-        <h1 class = "center">VampCat Reimbursements - Sign In</h1>
-        <div class = "landingImg">
-            <img src = "VampCat.png">
-        </div>
-        <form class = "landingImg" id="loginForm" method="post" action="http://localhost:8080/LoginServlet">
-            Enter username: <br>
-            <input type="text" name="username" id="username"><p>
-                Enter password: <br>
-                <input type="password" name="password" id="password">
-            <p>
-                <input type="submit" value="Login"/><br /><br />
-                <input id="loginButton" type="button" value="Register">
 
-        </form>
+</head>
 
-       
-    </body>
+<body class="gamerMoment">
+
+
+    <div class="topBox">
+        <nav class="homeText">
+
+            <h1 class="center">VampCat Reimbursements - Sign In</h1>
+        </nav>
+    </div>
+
+
+    <div class="landingImg">
+        <img src="VampCat.png">
+    </div>
+    <div class="landingBox">
+        
+        <nav class="homeText">
+            <form class="landingImg" id="loginForm" method="post" action="http://localhost:8080/LoginServlet">
+                Enter username: <br>
+                <input type="text" placeholder = "Username" name="username" id="username">
+                <p>
+                    Enter password: <br>
+                    <input type="password" placeholder = "Password" name="password" id="password">
+                <p>
+                    <input type="submit" value="Login" /><br /><br />
+                    <input id="loginButton" type="button" value="Register">
+
+            </form>
+
+        </nav>
+
+    </div>
+</body>
+
 </html>
