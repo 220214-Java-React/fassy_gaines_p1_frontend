@@ -7,7 +7,7 @@
 
 <head>
     <link rel="stylesheet" href="CSS/Style.css">
-    <script src="Function.js"></script>
+    <script src="Javascript\Reimbursements.js" defer></script>
     <title>
         Reimbursements
     </title>
@@ -30,7 +30,7 @@
     <!-- Standard menu at the top of the screen to move pages -->
     <ul class="indexTop">
         <li class="nav"><a href='index.html'>Home</a></li>
-        <li class="nav current"><a href='reimbursments.html'>Reimbursements</a></li>
+        <li class="nav current"><a href='reimbursements.html'>Reimbursements</a></li>
         <li class="nav"><a href='history.html'>History</a></li>
         <li class="nav "><a href='landingPage.html'>LandingTest</a></li>
 
@@ -47,13 +47,13 @@
 
                     <!-- Box for user to give name -->
                     <label for="name">Employee Name: </label>
-                    <input type="text" placeholder="Name" name="name">
+                    <input type="text" placeholder="Name" name="name" id = "employeeName">
 
                     <br><br>
 
                     <!-- Selector for the type of expense -->
                     <label for="expenses">Expense Type: </label>
-                    <select name="expense tpye" id="expense tpye">
+                    <select name="expense tpye" id="expenseType">
 
                         <option value="lodging" id="lodging">Lodging</option>
                         <option value="food" id="food">Food</option>
@@ -66,12 +66,12 @@
 
                     <!-- Box for user to give amount Spent -->
                     <label for="money">Amount Spent: $</label>
-                    <input type="number" placeholder="Amount" name="money" min="0.01">
+                    <input type="number" placeholder="Amount" name="money" min="0.01" id = "amountSpent">
 
                     <br><br>
 
                     <div class="center">
-                        <input id="submitButton" type="button" value="submit" />
+                        <input id="submitButton" type="button" value="Submit" />
                     </div>
 
                 </div>

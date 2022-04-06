@@ -35,7 +35,7 @@
   overflow: hidden;
   background-color: black;
   border-radius: 10px;
-  width: 475px;
+  width: 485px;
   box-shadow: 0 0 20px rgb(100, 2, 2);
 
 }
@@ -45,7 +45,6 @@
   float: left;
   border-radius: 10px;
 }
-
 .nav a {
   display: block;
   padding: 14px 25px;
@@ -54,11 +53,11 @@
   box-shadow: 0 0 20px rgb(100, 2, 2);
   border-radius: 10px;
 }
-
-/* Shows the current page we are on in the menu */
+/* Shows the current page we are on in the nav menu */
 .current {
   background-color: rgb(148, 36, 201);
   font-style: italic;
+  font-weight: bold;
 }
 
 /* Aligns text to the left */
