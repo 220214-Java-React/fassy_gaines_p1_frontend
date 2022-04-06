@@ -1,17 +1,34 @@
-.gamerMoment{
-    background-color: rgb(212, 167, 218);
+/* CODE AUTHORED BY WILLIAM AND CHRISTIAN ON TEAM VampCat TM */
+
+
+/* Standard backdrop color for all pages */
+.gamerMoment {
+  background-color: rgb(212, 167, 218);
 }
 
-.VampCat{
-height: 250px;
-width: 250px;
-float: left;
-border-radius: 50%;
-margin: -150px 20px;
+/* Adjustments for the image on all pages other than the landing and sign up pages */
+.VampCat {
+  height: 250px;
+  width: 250px;
+  float: left;
+  border-radius: 50%;
+  margin: -150px 20px;
 
 }
 
-.indexTop{
+/* Adjustments for the image on the signUp and login pages */
+.landingImg {
+
+  margin: 24px 0 12px 0;
+  position: relative;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Black housing box for the menu at the top of the nav-able pages */
+.indexTop {
   list-style-type: none;
   padding: 25px;
   margin: 25px 35%;
@@ -20,71 +37,70 @@ margin: -150px 20px;
   border-radius: 10px;
   width: 475px;
   box-shadow: 0 0 20px rgb(100, 2, 2);
-  
+
 }
 
-
- .landingImg {
-    
-    margin: 24px 0 12px 0;
-    position: relative;
-    border-radius: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
+/* Adds nav-able buttons in the housing */
 .nav {
-     float: left;
-     border-radius: 10px;
-   }
-   .nav a{
-     display: block;
-     padding: 14px 25px;
-     text-decoration: none;
-     color: rgb(255, 255, 255);
-     box-shadow: 0 0 20px rgb(100, 2, 2);
-     border-radius: 10px;
-   }
+  float: left;
+  border-radius: 10px;
+}
 
- .current {
-    background-color: rgb(148, 36, 201);
-    font-style: italic; 
-  }
+.nav a {
+  display: block;
+  padding: 14px 25px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  box-shadow: 0 0 20px rgb(100, 2, 2);
+  border-radius: 10px;
+}
 
- .left{
-    text-align: left;
-    margin: 0px 40px;
-  }
-  .center{
-    text-align: center;
-  }
+/* Shows the current page we are on in the menu */
+.current {
+  background-color: rgb(148, 36, 201);
+  font-style: italic;
+}
 
+/* Aligns text to the left */
+.left {
+  text-align: left;
+  margin: 0px 40px;
+}
+
+/* Aligns text to the center */
+.center {
+  text-align: center;
+}
+
+/* Stylization for the table in the History page */
 .styled-table {
-    border-collapse: collapse;
-    margin: 60px 10%;
-    font-size: 1em;
-    font-family: sans-serif;
-    min-width: 600px;
-    box-shadow: 0 0 20px rgb(172, 5, 172);
-    
-  }
+  border-collapse: collapse;
+  margin: 60px 10%;
+  font-size: 1em;
+  font-family: sans-serif;
+  min-width: 600px;
+  box-shadow: 0 0 20px rgb(172, 5, 172);
+
+}
+
 .styled-table thead tr {
   background-color: #9b14a0;
   color: #ffffff;
   text-align: left;
 }
+
 .styled-table th,
 .styled-table td {
-    padding: 12px 15px;
+  padding: 12px 15px;
 }
+
 .styled-table tbody tr {
   border-bottom: 1px solid #dddddd;
 }
 
 
-
-.homeBox{
+/* Housing boxes for the information on all pages. (Most have their own some share) */
+.homeBox {
   position: relative;
   width: 1000px;
   height: 235px;
@@ -99,7 +115,7 @@ margin: -150px 20px;
 
 }
 
-.reimBox{
+.reimBox {
   position: relative;
   width: 600px;
   height: 285px;
@@ -114,11 +130,11 @@ margin: -150px 20px;
 
 }
 
-.historyBox{
+.historyBox {
   position: relative;
   width: 750px;
   height: 1000px;
-  margin: 50px 30% ;
+  margin: 50px 30%;
 
   background: rgba(0, 0, 0, 0.842);
   float: center;
@@ -128,7 +144,7 @@ margin: -150px 20px;
   box-shadow: 0 0 20px rgb(100, 2, 2);
 }
 
-.landingBox{
+.landingBox {
   position: relative;
   width: 600px;
   height: 285px;
@@ -143,7 +159,7 @@ margin: -150px 20px;
 
 }
 
-.signUpBox{
+.signUpBox {
   position: relative;
   width: 600px;
   height: 450px;
@@ -158,7 +174,7 @@ margin: -150px 20px;
 
 }
 
-.topBox{
+.topBox {
   position: relative;
   width: 900px;
   height: 100px;
@@ -173,16 +189,10 @@ margin: -150px 20px;
 
 }
 
-.zeroFonto{
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-  font-size: xx-large;
-}
 
-.homeText{
+/* Sets the font and color of most text on the website */
+.homeText {
   color: rgb(189, 47, 255);
   text-align: center;
   font-size: x-large;
-
 }
